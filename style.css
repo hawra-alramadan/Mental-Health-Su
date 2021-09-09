@@ -31,6 +31,7 @@ ul{
     margin-right: 50px;
     text-align: center;
     padding: 3px;
+    letter-spacing: 3px;
 }
 
 .nav-bar a{ 
@@ -43,7 +44,7 @@ ul{
 
 .bimg1{
         background-image: url("img/Human-Brain.jpg");
-        min-height: 600px;
+        min-height: 750px;
 }
 
 .bimg2{
@@ -62,14 +63,17 @@ ul{
      background-size: cover;
      background-repeat: no-repeat;
      background-attachment: fixed;
-     opacity: 0.80;
+     opacity: 0.70;
  }
 
  .sec{
-     padding: 50px 80px;
+     height: 250px;
+     padding: 50px 300px;
      text-align: center;
+     justify-content: center;
      display: block;
      background-color: #fff6f5;
+     font-family: 'Times New Roman', Times, serif;
  }
 
  .stext{
@@ -88,14 +92,17 @@ ul{
      padding: 20px;
  }
 
+.quotes{
+    height: auto;
 
+}
 
  footer{
     background-color: #313131;
     color: white;
     text-align: center;
     position: relative;
-    height: 60px;
+    height: 50px;
     width: 100%;  
     padding: 30px 0;
  }
