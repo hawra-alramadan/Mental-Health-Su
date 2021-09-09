@@ -11,7 +11,7 @@ body , html{
 header{
     background-color: #313131;
     position: fixed;
-    height: 60px;
+    height: 90px;
     width: 100%;  
     top: 0;
     left: 0;
@@ -67,8 +67,7 @@ ul{
  }
 
  .sec{
-     height: 250px;
-     padding: 50px 300px;
+     padding: 50px 80px;
      text-align: center;
      justify-content: center;
      display: block;
@@ -93,7 +92,7 @@ ul{
  }
 
 .quotes{
-    height: auto;
+text-align: center;
 
 }
 
