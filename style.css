@@ -16,6 +16,7 @@ header{
     top: 0;
     left: 0;
     z-index: 10;
+    color: white;
 }
 
 .nav-bar{
@@ -32,11 +33,11 @@ ul{
     padding: 3px;
 }
 
-.nav-bar a{}
-.nav-bar a:hover{
-    background-color: #000;
+.nav-bar a{ 
     color: white;
-
+}
+.nav-bar a:hover{
+   color:  #fff6f5;
 }
 
 
@@ -87,9 +88,7 @@ ul{
      padding: 20px;
  }
 
- .stext .border-s{
-     color: #000;
- }
+
 
  footer{
     background-color: #313131;
@@ -98,6 +97,7 @@ ul{
     position: relative;
     height: 60px;
     width: 100%;  
+    padding: 30px 0;
  }
  footer p{
  top: 50%;
@@ -113,4 +113,11 @@ ul{
 
 a:visited, a:link {
     text-decoration: none;
+}
+a{
+    color: white;
+}
+
+img{
+    align-items: center;
 }
