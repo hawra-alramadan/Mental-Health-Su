@@ -1,0 +1,116 @@
+body , html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    line-height:1.8em;
+  color:rgb(56, 56, 56);
+}
+header{
+    background-color: #313131;
+    position: fixed;
+    height: 60px;
+    width: 100%;  
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.nav-bar{
+    width: 100%;
+}
+ul{
+    text-align: center;
+}
+.nav-bar li{
+    position: relative;
+    display: inline;
+    margin-right: 50px;
+    text-align: center;
+    padding: 3px;
+}
+
+.nav-bar a{}
+.nav-bar a:hover{
+    background-color: #000;
+    color: white;
+
+}
+
+
+.bimg1{
+        background-image: url("img/Human-Brain.jpg");
+        min-height: 600px;
+}
+
+.bimg2{
+        background-image: url('img/brain_mas.jpg');
+        min-height:400px;
+}
+
+.bimg3{
+     background-image: url('img/pexels.jpg');
+     min-height: 400px;
+ }
+
+.bimg1 , .bimg2 , .bimg3{
+     position: relative;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     opacity: 0.80;
+ }
+
+ .sec{
+     padding: 50px 80px;
+     text-align: center;
+     display: block;
+     background-color: #fff6f5;
+ }
+
+ .stext{
+     position: absolute;
+     text-align: center;
+     color: #fff;
+     letter-spacing: 10px;
+     text-transform: uppercase;
+     width: 100%;
+    top: 50%;
+    font-size: 27px;
+ }
+
+.stext .border{
+     background-color: black;
+     padding: 20px;
+ }
+
+ .stext .border-s{
+     color: #000;
+ }
+
+ footer{
+    background-color: #313131;
+    color: white;
+    text-align: center;
+    position: relative;
+    height: 60px;
+    width: 100%;  
+ }
+ footer p{
+ top: 50%;
+ }
+ .author a{
+ font-size: 13px;
+  font-weight:900;
+  text-align: center;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: normal;
+  }
+
+a:visited, a:link {
+    text-decoration: none;
+}
