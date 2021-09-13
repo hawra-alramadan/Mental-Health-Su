@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-s.css">
     <title>Survey</title>
 </head>
 <body>
+    <section class="logo">
+        <img src="img/log.jpg" alt="logo">
+        <h1>Mental Health Survey</h1>
+        <p> Please take a few minutes to fill out this survey on the overall status of your mental health. We value your feedback and your responses will be kept confidential. Thank you for your input.</p>
+    </section>
+    <form action="#" method="GET">
+        <section>
+            <h3>Gender:</h3>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">other</label>
+        </section>
+        <section>
+            <h3>Age:</h3>
+            <input type="number" id="age" name="Age">
+            <label for="age"></label>
+        </section>
+        <section>
+            <h3> During the past 4 weeks, have you had any problems with your work or daily life due to your physical health?</h3>
+            <input type="radio" id="yes" name="past" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="past" value="no">
+            <label for="no">No</label>
+            <input type="radio" id="don't know" name="past" value="don't know">
+            <label for="don't know">Don't know</label>
+        </section>
+        <section>
+            <h3>During the past 4 weeks, have you had any problems with your work or daily life due to any emotional problems, such as feeling depressed, sad or anxious? </h3>
+            <input type="radio" id="yes" name="past" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="past" value="no">
+            <label for="no">No</label>
+            <input type="radio" id="don't know" name="past" value="don't know">
+            <label for="don't know">Don't know</label>
+        </section>
+    </form>
     
 </body>
 </html>

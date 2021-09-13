@@ -71,12 +71,16 @@ ul{
      font-family: 'Quattrocento', serif;
  }
  .sec{
-     padding: 50px 80px;
-     text-align: center;
+     text-align: justify;
      justify-content: center;
      display: block;
      background-color: #fff6f5;
      font-family: 'Times New Roman', Times, serif;
+     height: 250px;
+     padding: 50px 300px;
+ }
+ article h2{
+     text-align: center;
  }
 
  .stext{
@@ -95,8 +99,9 @@ ul{
      padding: 20px;
  }
 
-.quotes{
-text-align: center;
+.advice{
+    text-align: center;
+    height: 450px;
 
 }
 
