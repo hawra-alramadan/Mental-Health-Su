@@ -14,9 +14,45 @@ body{
 }
 
 .logo p{
-    border: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+margin: 50px;
+padding: 50px;
+    display: block;
 }
 
 form{
-    background-color: #fff6f5;;
+    background-color: #fff6f5;
+    padding: 50px;
+}
+form section{
+    display: block;
+    border: rgb(223, 223, 223) solid 1px;
+    margin: 10px;
+    padding: 10px;
+}
+footer{
+    color: rgb(82, 82, 82);
+    text-align: center;
+    position: relative;
+    height: 50px;
+    width: 100%;  
+    padding: 30px 0;
+ }
+ footer p{
+ top: 50%;
+ }
+ .author a{
+ font-size: 13px;
+  font-weight:900;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  }
+
+a:visited, a:link {
+    text-decoration: none;
+}
+a{
+    color: rgb(109, 68, 68);
 }

@@ -121,9 +121,9 @@ ul{
  font-size: 13px;
   font-weight:900;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: normal;
+  letter-spacing: 2px;
   }
 
 a:visited, a:link {
