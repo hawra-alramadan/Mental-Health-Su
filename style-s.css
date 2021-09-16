@@ -14,18 +14,20 @@ body{
 }
 
 .logo p{
-    border: rgba(0, 0, 0, 0.548) dotted 1px;
+    border: rgba(206, 153, 153, 0.623) dotted 1px;
     margin: 50px;
     padding: 50px;
-    width: 500px ;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 form{
     background-color: #fff6f5;
     padding: 50px;
 }
-form section{
+
+.sec{
     display: block;
     border: rgb(223, 223, 223) solid 1px;
     margin: 10px;
@@ -38,13 +40,16 @@ form section{
 
 }
 
-input{
-   display:;
-}
 label{
  display: block;
 }
 
+.button{
+    padding: 50px;
+}
+.button input{
+    padding: 30px;
+}
 footer{
     color: rgb(82, 82, 82);
     text-align: center;
