@@ -14,9 +14,10 @@ body{
 }
 
 .logo p{
-    border: rgb(0, 0, 0) solid 1px;
-margin: 50px;
-padding: 50px;
+    border: rgba(0, 0, 0, 0.548) dotted 1px;
+    margin: 50px;
+    padding: 50px;
+    width: 500px ;
     display: block;
 }
 
@@ -28,8 +29,22 @@ form section{
     display: block;
     border: rgb(223, 223, 223) solid 1px;
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
+
+    color: #545E6B;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+
 }
+
+input{
+   display:;
+}
+label{
+ display: block;
+}
+
 footer{
     color: rgb(82, 82, 82);
     text-align: center;
